@@ -1,5 +1,6 @@
-package main.step_1_helloworld;
+package main;
 
+import main.step_1_helloworld.HelloWorld;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
