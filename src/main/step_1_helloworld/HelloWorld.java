@@ -7,11 +7,11 @@ public class HelloWorld {
     private String message;
 
     public void setMessage(String message){
-        System.out.println(" ... setting message");
+        System.out.println(" ... setting message: " + message);
         this.message  = message;
     }
     public String getMessage(){
-        System.out.println(" ... getting message");
+        System.out.println(" ... getting message: " + this.message);
         return this.message;
     }
 }
