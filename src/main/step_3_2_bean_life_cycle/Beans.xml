@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+    <!-- bean with init and destroy -->
+    <bean id="normalWorld" class="main.step_3_2_bean_life_cycle.NormalWorld"
+          init-method="init" destroy-method="destroy">
+        <property name="message" value="I'm AWAKE!!!"/>
+    </bean>
+    <bean id="itWorld" class="main.step_3_2_bean_life_cycle.ITWorld">
+        <property name="message" value="I'm AWAKE!!!"/>
+    </bean>
+
+</beans>
